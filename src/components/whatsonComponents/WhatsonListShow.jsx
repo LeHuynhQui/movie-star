@@ -17,13 +17,13 @@ const ListShow = () => {
                 <div>
                     <ul className="nav nav-pills mb-3 border-bottom mb-5" id="pills-tab" role="tablist">
                         <li className="nav-item hover-border-effect" role="presentation">
-                            <a className="nav-link text-black px-5 position-relative bg-transparent py-3 size-18 active" id="mon-tab" data-toggle="pill" href="#mon" role="tab" aria-controls="mon" aria-selected="true">MON</a>
+                            <a className="nav-link text-black px-5 position-relative bg-transparent py-3 size-18" id="mon-tab" data-toggle="pill" href="#mon" role="tab" aria-controls="mon" aria-selected="true">MON</a>
                         </li>
                         <li className="nav-item hover-border-effect" role="presentation">
                             <a className="nav-link text-black px-5 position-relative bg-transparent py-3 size-18" id="tue-tab" data-toggle="pill" href="#tue" role="tab" aria-controls="tue" aria-selected="false">TUE</a>
                         </li>
                         <li className="nav-item hover-border-effect" role="presentation">
-                            <a className="nav-link text-black px-5 position-relative bg-transparent py-3 size-18" id="wed-tab" data-toggle="pill" href="#wed" role="tab" aria-controls="wed" aria-selected="false">WED</a>
+                            <a className="nav-link text-black px-5 position-relative bg-transparent py-3 size-18 active" id="wed-tab" data-toggle="pill" href="#wed" role="tab" aria-controls="wed" aria-selected="false">TODAY</a>
                         </li>
                         <li className="nav-item hover-border-effect" role="presentation">
                             <a className="nav-link text-black px-5 position-relative bg-transparent py-3 size-18" id="thu-tab" data-toggle="pill" href="#thu" role="tab" aria-controls="thu" aria-selected="false">THU</a>
