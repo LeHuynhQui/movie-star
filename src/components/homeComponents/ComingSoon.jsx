@@ -29,8 +29,8 @@ const ComingSoon = () => {
             <img src={slide7} alt="" className="position-absolute w-100 h-100 t-0 l-0 bg"/>
             <div className="container">
                 <h3 className="section-title border-bottom py-4 text-white position-relative my-5 size-18">COMING SOON</h3>
-                <div className="row justify-content-between align-items-center">
-                    <div className="col-5 text-white">
+                <div className="responsive row justify-content-between align-items-center">
+                    <div className="col-5 mb-5 text-white">
                         <p className="text-orange letter-spacing-3">DRAMA, THRILLER</p>
                         <h2 data-aos="zoom-in-down" data-aos-delay="1000" className="size-34 mb-3 letter-spacing-3">Deepwater Horizon</h2>
                         <div className="star-date d-flex w-100 justify-content-start align-items-center mb-5">

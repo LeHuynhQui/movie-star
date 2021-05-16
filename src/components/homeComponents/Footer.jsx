@@ -6,7 +6,7 @@ export default class Footer extends Component {
             <footer className="py-5">
                 <div className="container text-white">
                     <div className="row border-bottom pb-5 mb-5">
-                        <div className="col-3">
+                        <div className="col-3 responsive">
                             <h4 className="text-orange mb-5 letter-spacing-3 pt-5">GET IN TOUCH</h4>
                             <ul className="list-unstyled">
                                 <li className="mb-3"><a href="/" className="text-decoration-none">FAQs</a></li>
@@ -14,7 +14,7 @@ export default class Footer extends Component {
                                 <li className="mb-3"><a href="/" className="text-decoration-none">Contact us</a> </li> 
                             </ul>
                         </div>
-                        <div className="col-3">
+                        <div className="col-3 responsive">
                             <h4 className="text-orange mb-5 letter-spacing-3 pt-5">ABOUT MOVIE STAR</h4>
                             <ul className="list-unstyled">
                                 <li className="mb-3"><a href="/" className="text-decoration-none">About us</a></li>
@@ -23,7 +23,7 @@ export default class Footer extends Component {
                                 <li className="mb-3"><a href="/" className="text-decoration-none">News</a></li>
                             </ul>
                         </div>
-                        <div className="col-3">
+                        <div className="col-3 responsive">
                             <h4 className="text-orange mb-5 letter-spacing-3 pt-5">LEGAL STUFF</h4>
                             <ul className="list-unstyled">
                                 <li className="mb-3"><a href="/" className="text-decoration-none">Terms & Conditions</a></li>
@@ -31,7 +31,7 @@ export default class Footer extends Component {
                                 <li className="mb-3"><a href="/" className="text-decoration-none">Cookie policy</a></li>
                             </ul>
                         </div>
-                        <div className="col-3">
+                        <div className="col-3 responsive">
                             <h4 className="text-orange mb-5 letter-spacing-3 pt-5">CONNECT WITH US</h4>
                             <ul className="list-unstyled">
                                     <li className="mb-3">

@@ -5,13 +5,13 @@ import movie3 from '../../img/movie-3.jpg'
 import movie4 from '../../img/movie-4.jpg'
 import Aos from 'aos'
 
-
 const Newin = () => {
     const [playTrailer, setPlayTrailer] = useState(false)
     useEffect(() => {
         Aos.init({duration: 2000})
     }, [])
-
+    
+    
     return (
         <section id="new-in" className="mt-5 py-5">
             {/* Handle pop-up video diasplay */}
