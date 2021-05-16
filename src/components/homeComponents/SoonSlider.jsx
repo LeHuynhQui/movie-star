@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import movie6 from '../../img/movie-6.jpg'
 import movie7 from '../../img/movie-7.jpg'
 import movie8 from '../../img/movie-8.jpg'
@@ -9,103 +9,110 @@ import movie13 from '../../img/movie-13.jpg'
 import movie14 from '../../img/movie-14.jpg'
 
 
-export default class SoonSlider extends Component {
-    render() {
-        return (
-            <section id="soonSlider" className="py-5">
-                <div className="container">
-                    <div className="row flex-nowrap soonSlider">
-                        <div className="col-2">
-                            <div className="card border-0 bg-transparent">
-                                <div className="w-100 h-100 border-radius-1">
-                                    <img src={movie9} className="w-100 border-radius-1" alt="..." />
-                                </div>
-                                <div className="card-body text-center text-white">
-                                    <h4 className="card-title text-center my-3">Dark and lonely</h4>
-                                    <p>15, Apr 2017</p>
-                                </div>
+const SoonSlider = () => {
+    const[recolumn, setRecolumn] = useState(false)
+    window.addEventListener('resize', e=> {
+        window.innerWidth < 1061 ? setRecolumn(true) : setRecolumn(false)
+    })
+    return (
+        <section id="soonSlider" className="py-5">
+            <div className="container">
+                <div className="row flex-nowrap soonSlider">
+                    <div className="col-2">
+                    {/* <div className="col-3 col-2"> */}
+
+                        <div className="card border-0 bg-transparent">
+                            <div className="w-100 h-100 border-radius-1">
+                                <img src={movie9} className="w-100 border-radius-1" alt="..." />
+                            </div>
+                            <div className="card-body text-center text-white">
+                                <h4 className="card-title text-center my-3">Dark and lonely</h4>
+                                <p>15, Apr 2017</p>
                             </div>
                         </div>
-                        <div className="col-2">
-                            <div className="card border-0 bg-transparent">
-                                <div className="w-100 h-100 border-radius-1">
-                                    <img src={movie11} className="w-100 border-radius-1" alt="..." />
-                                </div>
-                                <div className="card-body text-center text-white">
-                                    <h4 className="card-title text-center my-3">Dark and lonely</h4>
-                                    <p>15, Apr 2017</p>
-                                </div>
+                    </div>
+                    <div className="col-2">
+                        <div className="card border-0 bg-transparent">
+                            <div className="w-100 h-100 border-radius-1">
+                                <img src={movie11} className="w-100 border-radius-1" alt="..." />
+                            </div>
+                            <div className="card-body text-center text-white">
+                                <h4 className="card-title text-center my-3">Dark and lonely</h4>
+                                <p>15, Apr 2017</p>
                             </div>
                         </div>
-                        <div className="col-2">
-                            <div className="card border-0 bg-transparent">
-                                <div className="w-100 h-100 border-radius-1">
-                                    <img src={movie12} className="w-100 border-radius-1" alt="..." />
-                                </div>
-                                <div className="card-body text-center text-white">
-                                    <h4 className="card-title text-center my-3">Dark and lonely</h4>
-                                    <p>15, Apr 2017</p>
-                                </div>
+                    </div>
+                    <div className="col-2">
+                        <div className="card border-0 bg-transparent">
+                            <div className="w-100 h-100 border-radius-1">
+                                <img src={movie12} className="w-100 border-radius-1" alt="..." />
+                            </div>
+                            <div className="card-body text-center text-white">
+                                <h4 className="card-title text-center my-3">Dark and lonely</h4>
+                                <p>15, Apr 2017</p>
                             </div>
                         </div>
-                        <div className="col-2">
-                            <div className="card border-0 bg-transparent">
-                                <div className="w-100 h-100 border-radius-1">
-                                    <img src={movie13} className="w-100 border-radius-1" alt="..." />
-                                </div>
-                                <div className="card-body text-center text-white">
-                                    <h4 className="card-title text-center my-3">Dark and lonely</h4>
-                                    <p>15, Apr 2017</p>
-                                </div>
+                    </div>
+                    <div className="col-2">
+                        <div className="card border-0 bg-transparent">
+                            <div className="w-100 h-100 border-radius-1">
+                                <img src={movie13} className="w-100 border-radius-1" alt="..." />
+                            </div>
+                            <div className="card-body text-center text-white">
+                                <h4 className="card-title text-center my-3">Dark and lonely</h4>
+                                <p>15, Apr 2017</p>
                             </div>
                         </div>
-                        <div className="col-2">
-                            <div className="card border-0 bg-transparent">
-                                <div className="w-100 h-100 border-radius-1">
-                                    <img src={movie14} className="w-100 border-radius-1" alt="..." />
-                                </div>
-                                <div className="card-body text-center text-white">
-                                    <h4 className="card-title text-center my-3">Dark and lonely</h4>
-                                    <p>15, Apr 2017</p>
-                                </div>
+                    </div>
+                    <div className="col-2">
+                        <div className="card border-0 bg-transparent">
+                            <div className="w-100 h-100 border-radius-1">
+                                <img src={movie14} className="w-100 border-radius-1" alt="..." />
+                            </div>
+                            <div className="card-body text-center text-white">
+                                <h4 className="card-title text-center my-3">Dark and lonely</h4>
+                                <p>15, Apr 2017</p>
                             </div>
                         </div>
-                        <div className="col-2">
-                            <div className="card border-0 bg-transparent">
-                                <div className="w-100 h-100 border-radius-1">
-                                    <img src={movie6} className="w-100 border-radius-1" alt="..." />
-                                </div>
-                                <div className="card-body text-center text-white">
-                                    <h4 className="card-title text-center my-3">Dark and lonely</h4>
-                                    <p>15, Apr 2017</p>
-                                </div>
+                    </div>
+                    <div className="col-2">
+                        <div className="card border-0 bg-transparent">
+                            <div className="w-100 h-100 border-radius-1">
+                                <img src={movie6} className="w-100 border-radius-1" alt="..." />
+                            </div>
+                            <div className="card-body text-center text-white">
+                                <h4 className="card-title text-center my-3">Dark and lonely</h4>
+                                <p>15, Apr 2017</p>
                             </div>
                         </div>
-                        <div className="col-2">
-                            <div className="card border-0 bg-transparent">
-                                <div className="w-100 h-100 border-radius-1">
-                                    <img src={movie7} className="w-100 border-radius-1" alt="..." />
-                                </div>
-                                <div className="card-body text-center text-white">
-                                    <h4 className="card-title text-center my-3">Dark and lonely</h4>
-                                    <p>15, Apr 2017</p>
-                                </div>
+                    </div>
+                    <div className="col-2">
+                        <div className="card border-0 bg-transparent">
+                            <div className="w-100 h-100 border-radius-1">
+                                <img src={movie7} className="w-100 border-radius-1" alt="..." />
+                            </div>
+                            <div className="card-body text-center text-white">
+                                <h4 className="card-title text-center my-3">Dark and lonely</h4>
+                                <p>15, Apr 2017</p>
                             </div>
                         </div>
-                        <div className="col-2">
-                            <div className="card border-0 bg-transparent">
-                                <div className="w-100 h-100 border-radius-1">
-                                    <img src={movie8} className="w-100 border-radius-1" alt="..." />
-                                </div>
-                                <div className="card-body text-center text-white">
-                                    <h4 className="card-title text-center my-3">Dark and lonely</h4>
-                                    <p>15, Apr 2017</p>
-                                </div>
+                    </div>
+                    <div className="col-2">
+                        <div className="card border-0 bg-transparent">
+                            <div className="w-100 h-100 border-radius-1">
+                                <img src={movie8} className="w-100 border-radius-1" alt="..." />
+                            </div>
+                            <div className="card-body text-center text-white">
+                                <h4 className="card-title text-center my-3">Dark and lonely</h4>
+                                <p>15, Apr 2017</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-        )
-    }
+            </div>
+        </section>
+    )
 }
+
+export default  SoonSlider 
+

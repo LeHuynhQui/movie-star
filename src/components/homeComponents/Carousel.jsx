@@ -16,7 +16,7 @@ const Carousel = () => {
         <section id="carousel" className="w-100 h-95vh position-relative mb-5">
             {/* Handle pop-up video diasplay */}
             <div className={playTrailer ? "playTrailer position-fixed activePlay transition-1000ms z-index-999" : "playTrailer position-fixed z-index-999"}>
-                <iframe width="1120" height="630" src="https://www.youtube.com/embed/RhFMIRuHAL4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe width="900" height="550" src="https://www.youtube.com/embed/RhFMIRuHAL4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
             <img src={scrollArrow} alt="" className="scrollArrow position-absolute b-0" />
 
