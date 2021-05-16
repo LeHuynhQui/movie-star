@@ -31,7 +31,7 @@ const NewsCarousel = () => {
                                 <div className="overlay position-absolute h-100 t-0"></div>
                                 <div className="overlay-text text-white  position-absolute w-100 h-100 t-0 l-0 text-center d-flex flex-column justify-content-center align-items-center">
                                     <i className="fas fa-link play-btn rounded-circle border border-white text-center size-18 mb-4"  onClick={()=> setPlayTrailer(true)}></i>
-                                    <a href="/single-movie" className="letter-spacing-3 font-weight-bolder text-decoration-none">READ MORE</a>
+                                    <a href="/news" className="letter-spacing-3 font-weight-bolder text-decoration-none">READ MORE</a>
                                 </div>
                             </div>
                             <div className="card-body p-0 mt-5">
@@ -49,7 +49,7 @@ const NewsCarousel = () => {
                                 <div className="overlay position-absolute h-100 t-0"></div>
                                 <div className="overlay-text text-white  position-absolute w-100 h-100 t-0 l-0 text-center d-flex flex-column justify-content-center align-items-center">
                                     <i className="fas fa-link play-btn rounded-circle border border-white text-center size-18 mb-4"  onClick={()=> setPlayTrailer(true)}></i>
-                                    <a href="/single-movie" className="letter-spacing-3 font-weight-bolder text-decoration-none">READ MORE</a>
+                                    <a href="/news" className="letter-spacing-3 font-weight-bolder text-decoration-none">READ MORE</a>
                                 </div>
                             </div>
                             <div className="card-body p-0 mt-5">
@@ -67,7 +67,7 @@ const NewsCarousel = () => {
                                 <div className="overlay position-absolute h-100 t-0"></div>
                                 <div className="overlay-text text-white  position-absolute w-100 h-100 t-0 l-0 text-center d-flex flex-column justify-content-center align-items-center">
                                     <i className="fas fa-link play-btn rounded-circle border border-white text-center size-18 mb-4"  onClick={()=> setPlayTrailer(true)}></i>
-                                    <a href="/single-movie" className="letter-spacing-3 font-weight-bolder text-decoration-none">READ MORE</a>
+                                    <a href="/news" className="letter-spacing-3 font-weight-bolder text-decoration-none">READ MORE</a>
                                 </div>
                             </div>
                             <div className="card-body p-0 mt-5">
@@ -85,7 +85,7 @@ const NewsCarousel = () => {
                                 <div className="overlay position-absolute h-100 t-0"></div>
                                 <div className="overlay-text text-white  position-absolute w-100 h-100 t-0 l-0 text-center d-flex flex-column justify-content-center align-items-center">
                                     <i className="fas fa-link play-btn rounded-circle border border-white text-center size-18 mb-4"  onClick={()=> setPlayTrailer(true)}></i>
-                                    <a href="/single-movie" className="letter-spacing-3 font-weight-bolder text-decoration-none">READ MORE</a>
+                                    <a href="/news" className="letter-spacing-3 font-weight-bolder text-decoration-none">READ MORE</a>
                                 </div>
                             </div>
                             <div className="card-body p-0 mt-5">

@@ -14,7 +14,7 @@ import Home from './pages/Home';
 import WhatsOn from './pages/WhatsOn';
 import Shortcodes from './pages/Shortcodes';
 import News from './pages/News';
-import Contact from './pages/Contact';
+import ContactPage from './pages/ContactPage';
 import SingleMovie from './pages/SingleMovie';
 
 import Footer from './components/homeComponents/Footer'
@@ -36,7 +36,7 @@ function App() {
               <Route exact path= '/whats-on' render={() => <WhatsOn />}/>
               <Route exact path= '/shortcodes' render={() => <Shortcodes />}/>
               <Route exact path= '/news' render={() => <News />}/>
-              <Route exact path= '/contact' render={() => <Contact />}/>
+              <Route exact path= '/contact' render={() => <ContactPage />}/>
               <Route exact path= '/single-movie' render={() => <SingleMovie />}/>
             </Switch>
           </AnimatePresence>

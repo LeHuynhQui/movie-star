@@ -16,12 +16,12 @@ const Newin = () => {
         <section id="new-in" className="mt-5 py-5">
             {/* Handle pop-up video diasplay */}
             <div className={playTrailer ? "playTrailer position-fixed activePlay transition-1000ms z-index-999" : "playTrailer position-fixed z-index-999"}>
-                <iframe width="1120" height="630" src="https://www.youtube.com/embed/d96cjJhvlMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="1120" height="630" src="https://www.youtube.com/embed/d96cjJhvlMA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
 
             {/* blur backgound */}
             <div className={playTrailer ? "blur-bg position-fixed w-100 blur-bg-active transition-500ms" : "blur-bg position-fixed w-100"} onClick={()=> setPlayTrailer(false)}>
-                <i class="fas fa-times text-white position-absolute t-0 r-0 size-34 p-5" onClick={() => setPlayTrailer(false)}></i>
+                <i className="fas fa-times text-white position-absolute t-0 r-0 size-34 p-5" onClick={() => setPlayTrailer(false)}></i>
             </div>
 
 
@@ -36,19 +36,19 @@ const Newin = () => {
                                 <img src={movie1} className="card-img-top w-100 border-radius-1" alt="..." />
                                 <div className="overlay position-absolute h-100 t-0"></div>
                                 <div className="overlay-text text-white  position-absolute w-100 h-100 t-0 l-0 text-center d-flex flex-column justify-content-center align-items-center">
-                                    <i class="fas fa-play play-btn rounded-circle border border-white text-center size-18 mb-4"  onClick={()=> setPlayTrailer(true)}></i>
-                                    <a href="/single-movie" className="letter-spacing-3 font-weight-bolder text-decoration-none">READ MORE</a>
+                                    <i className="fas fa-play play-btn rounded-circle border border-white text-center size-18 mb-4"  onClick={()=> setPlayTrailer(true)}></i>
+                                    <a href="/news" className="letter-spacing-3 font-weight-bolder text-decoration-none">READ MORE</a>
                                     <p>Released: 7 Mar, 2017</p>
                                 </div>
                             </div>
                             <div className="card-body">
                                 <h2 className="card-title text-center my-3">The last post</h2>
                                 <div className="row justify-content-center">
-                                    <i class="fa fa-star px-1 text-yellow"></i>
-                                    <i class="fa fa-star px-1 text-yellow"></i>
-                                    <i class="fa fa-star px-1 text-yellow"></i>
-                                    <i class="fa fa-star px-1 text-yellow"></i>
-                                    <i class="fa fa-star px-1 text-yellow"></i>
+                                    <i className="fa fa-star px-1 text-yellow"></i>
+                                    <i className="fa fa-star px-1 text-yellow"></i>
+                                    <i className="fa fa-star px-1 text-yellow"></i>
+                                    <i className="fa fa-star px-1 text-yellow"></i>
+                                    <i className="fa fa-star px-1 text-yellow"></i>
                                 </div>
                             </div>
                         </div>
@@ -60,19 +60,19 @@ const Newin = () => {
                                 <img src={movie2} className="card-img-top w-100 border-radius-1" alt="..." />
                                 <div className="overlay position-absolute h-100 t-0"></div>
                                 <div className="overlay-text text-white  position-absolute w-100 h-100 t-0 l-0 text-center d-flex flex-column justify-content-center align-items-center">
-                                    <i class="fas fa-play play-btn rounded-circle border border-white text-center size-18 mb-4"  onClick={()=> setPlayTrailer(true)}></i>
-                                    <a href="/single-movie" className="letter-spacing-3 font-weight-bolder text-decoration-none">READ MORE</a>
+                                    <i className="fas fa-play play-btn rounded-circle border border-white text-center size-18 mb-4"  onClick={()=> setPlayTrailer(true)}></i>
+                                    <a href="/news" className="letter-spacing-3 font-weight-bolder text-decoration-none">READ MORE</a>
                                     <p>Released: 7 Mar, 2017</p>
                                 </div>
                             </div>
                             <div className="card-body">
                                 <h2 className="card-title text-center my-3">Dark and lonely</h2>
                                 <div className="row justify-content-center">
-                                    <i class="fa fa-star px-1 text-yellow"></i>
-                                    <i class="fa fa-star px-1 text-yellow"></i>
-                                    <i class="fas fa-star-half-alt px-1 text-yellow"></i>
-                                    <i class="far fa-star px-1 text-yellow"></i>
-                                    <i class="far fa-star px-1 text-yellow"></i>
+                                    <i className="fa fa-star px-1 text-yellow"></i>
+                                    <i className="fa fa-star px-1 text-yellow"></i>
+                                    <i className="fas fa-star-half-alt px-1 text-yellow"></i>
+                                    <i className="far fa-star px-1 text-yellow"></i>
+                                    <i className="far fa-star px-1 text-yellow"></i>
                                 </div>
                             </div>
                         </div>
@@ -84,19 +84,19 @@ const Newin = () => {
                                 <img src={movie3} className="card-img-top w-100 border-radius-1" alt="..." />
                                 <div className="overlay position-absolute h-100 t-0"></div>
                                 <div className="overlay-text text-white  position-absolute w-100 h-100 t-0 l-0 text-center d-flex flex-column justify-content-center align-items-center">
-                                    <i class="fas fa-play play-btn rounded-circle border border-white text-center size-18 mb-4"  onClick={()=> setPlayTrailer(true)}></i>
-                                    <a href="/single-movie" className="letter-spacing-3 font-weight-bolder text-decoration-none">READ MORE</a>
+                                    <i className="fas fa-play play-btn rounded-circle border border-white text-center size-18 mb-4"  onClick={()=> setPlayTrailer(true)}></i>
+                                    <a href="/news" className="letter-spacing-3 font-weight-bolder text-decoration-none">READ MORE</a>
                                     <p>Released: 7 Mar, 2017</p>
                                 </div>
                             </div>
                             <div className="card-body">
                                 <h2 className="card-title text-center my-3">Venture</h2>
                                 <div className="row justify-content-center">
-                                    <i class="fa fa-star px-1 text-yellow"></i>
-                                    <i class="fa fa-star px-1 text-yellow"></i>
-                                    <i class="fa fa-star px-1 text-yellow"></i>
-                                    <i class="fas fa-star-half-alt px-1 text-yellow"></i>
-                                    <i class="far fa-star px-1 text-yellow"></i>
+                                    <i className="fa fa-star px-1 text-yellow"></i>
+                                    <i className="fa fa-star px-1 text-yellow"></i>
+                                    <i className="fa fa-star px-1 text-yellow"></i>
+                                    <i className="fas fa-star-half-alt px-1 text-yellow"></i>
+                                    <i className="far fa-star px-1 text-yellow"></i>
                                 </div>
                             </div>
                         </div>
@@ -108,19 +108,19 @@ const Newin = () => {
                                 <img src={movie4} className="card-img-top w-100 border-radius-1" alt="..." />
                                 <div className="overlay position-absolute h-100 t-0"></div>
                                 <div className="overlay-text text-white  position-absolute w-100 h-100 t-0 l-0 text-center d-flex flex-column justify-content-center align-items-center">
-                                    <i class="fas fa-play play-btn rounded-circle border border-white text-center size-18 mb-4"  onClick={()=> setPlayTrailer(true)}></i>
-                                    <a href="/single-movie" className="letter-spacing-3 font-weight-bolder text-decoration-none">READ MORE</a>
+                                    <i className="fas fa-play play-btn rounded-circle border border-white text-center size-18 mb-4"  onClick={()=> setPlayTrailer(true)}></i>
+                                    <a href="/news" className="letter-spacing-3 font-weight-bolder text-decoration-none">READ MORE</a>
                                     <p>Released: 7 Mar, 2017</p>
                                 </div>
                             </div>
                             <div className="card-body">
                                 <h2 className="card-title text-center my-3">Hush</h2>
                                 <div className="row justify-content-center">
-                                    <i class="fa fa-star px-1 text-yellow"></i>
-                                    <i class="fa fa-star px-1 text-yellow"></i>
-                                    <i class="fa fa-star px-1 text-yellow"></i>
-                                    <i class="fa fa-star px-1 text-yellow"></i>
-                                    <i class="far fa-star px-1 text-yellow"></i>
+                                    <i className="fa fa-star px-1 text-yellow"></i>
+                                    <i className="fa fa-star px-1 text-yellow"></i>
+                                    <i className="fa fa-star px-1 text-yellow"></i>
+                                    <i className="fa fa-star px-1 text-yellow"></i>
+                                    <i className="far fa-star px-1 text-yellow"></i>
                                 </div>
                             </div>
                         </div>
@@ -132,19 +132,19 @@ const Newin = () => {
                                 <img src={movie3} className="card-img-top w-100 border-radius-1" alt="..." />
                                 <div className="overlay position-absolute h-100 t-0"></div>
                                 <div className="overlay-text text-white  position-absolute w-100 h-100 t-0 l-0 text-center d-flex flex-column justify-content-center align-items-center">
-                                    <i class="fas fa-play play-btn rounded-circle border border-white text-center size-18 mb-4"  onClick={()=> setPlayTrailer(true)}></i>
-                                    <a href="/single-movie" className="letter-spacing-3 font-weight-bolder text-decoration-none">READ MORE</a>
+                                    <i className="fas fa-play play-btn rounded-circle border border-white text-center size-18 mb-4"  onClick={()=> setPlayTrailer(true)}></i>
+                                    <a href="/news" className="letter-spacing-3 font-weight-bolder text-decoration-none">READ MORE</a>
                                     <p>Released: 7 Mar, 2017</p>
                                 </div>
                             </div>
                             <div className="card-body">
                                 <h2 className="card-title text-center my-3">Venture</h2>
                                 <div className="row justify-content-center">
-                                <i class="fa fa-star px-1 text-yellow"></i>
-                                    <i class="fa fa-star px-1 text-yellow"></i>
-                                    <i class="fa fa-star px-1 text-yellow"></i>
-                                    <i class="fas fa-star-half-alt px-1 text-yellow"></i>
-                                    <i class="far fa-star px-1 text-yellow"></i>
+                                <i className="fa fa-star px-1 text-yellow"></i>
+                                    <i className="fa fa-star px-1 text-yellow"></i>
+                                    <i className="fa fa-star px-1 text-yellow"></i>
+                                    <i className="fas fa-star-half-alt px-1 text-yellow"></i>
+                                    <i className="far fa-star px-1 text-yellow"></i>
                                 </div>
                             </div>
                         </div>

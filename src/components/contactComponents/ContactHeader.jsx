@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import logo from '../../img/logo.svg'
 
-const ShortcodesHeader = () => {
+const ContactHeader = () => {
     const [active, setActive] = useState(false)
 
     window.addEventListener('scroll', e => {
@@ -28,7 +28,7 @@ const ShortcodesHeader = () => {
                             <a className="nav-link pages px-5 py-4 letter-spacing-3 position-relative text-white" href="/whats-on">WHAT'S ON</a>
                         </li>
                         <li className="nav-item hover-border-effect">
-                            <a className="nav-link pages px-5 py-4 letter-spacing-3 position-relative text-white active" href="/shortcodes">SHORTCOEDS</a>
+                            <a className="nav-link pages px-5 py-4 letter-spacing-3 position-relative text-white" href="/shortcodes">SHORTCOEDS</a>
                         </li>
                         <li className="nav-item hover-border-effect position-relative news">
                             <a className= "nav-link pages px-5 py-4 letter-spacing-3 position-relative text-white "href="/news">NEWS</a>
@@ -37,7 +37,7 @@ const ShortcodesHeader = () => {
                             </div>
                         </li>
                         <li className="nav-item hover-border-effect">
-                            <a className="nav-link pages px-5 py-4 letter-spacing-3 position-relative text-white" href="/contact">CONTACT</a>
+                            <a className="nav-link pages px-5 py-4 letter-spacing-3 position-relative text-white active" href="/contact">CONTACT</a>
                         </li>
                     </ul>
                 </nav>
@@ -48,4 +48,4 @@ const ShortcodesHeader = () => {
 }
 
 
-export default ShortcodesHeader
+export default ContactHeader
