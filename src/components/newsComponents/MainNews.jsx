@@ -4,9 +4,20 @@ import hero2 from '../../img/hero-2.jpg'
 import hero3 from '../../img/hero-3.jpg'
 import post1 from '../../img/post-1.png'
 import post5 from '../../img/post-5.png'
+
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link,
+    useParams,
+    useRouteMatch
+  } from "react-router-dom";
+  
+
 const MainNews = () => {
     const [playTrailer, setPlayTrailer] = useState(false)
-
+    let { path, url } = useRouteMatch();
 
     return (
         <section id="mainNews" className="my-5 py-5">
@@ -24,7 +35,7 @@ const MainNews = () => {
 
 
             <div className="container">
-                <div className="row justify-content-between align-items-start">
+                <div className="row col-12 justify-content-between align-items-start">
                     <div className="col-7">
                         <div className="w-100 border-bottom mb-5 pt-5">
                             <div className="card-img w-100 h-100 position-relative overflow-hidden border-radius-1 mb-3">
@@ -39,7 +50,7 @@ const MainNews = () => {
                                 <p className="letter-spacing-3 text-orange m-0 mb-1">NEW RELEASES, WHAT'S HOT</p>
                                 <h3 className="letter-spacing-3 size-24 mb-5">15 Tips To Increase Your Adwords Profits</h3>
                                 <p className="font-weight-lighter mb-3">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
-                                <a href="/"><button className="letter-spacing-3 px-5 py-3 position-relative overflow-hidden text-orange bg-white rounded-pill">READ FULL POST</button></a>
+                                <a href="/news"><button className="letter-spacing-3 px-5 py-3 position-relative overflow-hidden text-orange bg-white rounded-pill">READ FULL POST</button></a>
                             </div>
                         </div>
 
@@ -56,7 +67,7 @@ const MainNews = () => {
                                 <p className="letter-spacing-3 text-orange m-0 mb-1">NEW MOVIES, ANIMATION</p>
                                 <h3 className="letter-spacing-3 size-24 mb-5">There Is No Competition</h3>
                                 <p className="font-weight-lighter mb-3">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
-                                <a href="/"><button className="letter-spacing-3 px-5 py-3 position-relative overflow-hidden text-orange bg-white rounded-pill">READ FULL POST</button></a>
+                                <a href="/news"><button className="letter-spacing-3 px-5 py-3 position-relative overflow-hidden text-orange bg-white rounded-pill">READ FULL POST</button></a>
                             </div>
                         </div>
 
@@ -73,7 +84,7 @@ const MainNews = () => {
                                 <p className="letter-spacing-3 text-orange m-0 mb-1">NEW MOVIES, ANIMATION</p>
                                 <h3 className="letter-spacing-3 size-24 mb-5">There Is No Competition</h3>
                                 <p className="font-weight-lighter mb-3">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
-                                <a href="/"><button className="letter-spacing-3 px-5 py-3 position-relative overflow-hidden text-orange bg-white rounded-pill">READ FULL POST</button></a>
+                                <a href="/news"><button className="letter-spacing-3 px-5 py-3 position-relative overflow-hidden text-orange bg-white rounded-pill">READ FULL POST</button></a>
                             </div>
                         </div>
 
@@ -90,7 +101,7 @@ const MainNews = () => {
                                 <p className="letter-spacing-3 text-orange m-0 mb-1">NEW MOVIES, ANIMATION</p>
                                 <h3 className="letter-spacing-3 size-24 mb-5">There Is No Competition</h3>
                                 <p className="font-weight-lighter mb-3">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
-                                <a href="/"><button className="letter-spacing-3 px-5 py-3 position-relative overflow-hidden text-orange bg-white rounded-pill">READ FULL POST</button></a>
+                                <a href="/news"><button className="letter-spacing-3 px-5 py-3 position-relative overflow-hidden text-orange bg-white rounded-pill">READ FULL POST</button></a>
                             </div>
                         </div>
 
@@ -107,7 +118,7 @@ const MainNews = () => {
                                 <p className="letter-spacing-3 text-orange m-0 mb-1">NEW MOVIES, ANIMATION</p>
                                 <h3 className="letter-spacing-3 size-24 mb-5">There Is No Competition</h3>
                                 <p className="font-weight-lighter mb-3">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
-                                <a href="/"><button className="letter-spacing-3 px-5 py-3 position-relative overflow-hidden text-orange bg-white rounded-pill">READ FULL POST</button></a>
+                                <a href="/news"><button className="letter-spacing-3 px-5 py-3 position-relative overflow-hidden text-orange bg-white rounded-pill">READ FULL POST</button></a>
                             </div>
                         </div>
                     </div>
@@ -120,19 +131,19 @@ const MainNews = () => {
                         <div className="caterogies mb-5">
                             <h3 className="section-title border-bottom py-4 text-orange position-relative mb-5 size-18">CATEGORIES</h3>
                             <ul className="list-unstyled">
-                                <li className="mb-2"><a href="/" className="text-black">Coming soon</a></li>
-                                <li className="mb-2"><a href="/" className="text-black">New releases</a></li>
-                                <li className="mb-2"><a href="/" className="text-black">What's hot</a></li>
-                                <li className="mb-2"><a href="/" className="text-black">Events</a></li>
+                                <li className="mb-2"><a href="/news" className="text-black">Coming soon</a></li>
+                                <li className="mb-2"><a href="/news" className="text-black">New releases</a></li>
+                                <li className="mb-2"><a href="/news" className="text-black">What's hot</a></li>
+                                <li className="mb-2"><a href="/news" className="text-black">Events</a></li>
                             </ul>
                         </div>
                         <div className="archives mb-5">
                             <h3 className="section-title border-bottom py-4 text-orange position-relative mb-5 size-18">ARCHIVES</h3>
                             <ul className="list-unstyled">
-                                <li className="mb-2"><a href="/" className="text-black">July 2017</a></li>
-                                <li className="mb-2"><a href="/" className="text-black">June 2017</a></li>
-                                <li className="mb-2"><a href="/" className="text-black">May 2017</a></li>
-                                <li className="mb-2"><a href="/" className="text-black">April 2017</a></li>
+                                <li className="mb-2"><a href="/news" className="text-black">July 2017</a></li>
+                                <li className="mb-2"><a href="/news" className="text-black">June 2017</a></li>
+                                <li className="mb-2"><a href="/news" className="text-black">May 2017</a></li>
+                                <li className="mb-2"><a href="/news" className="text-black">April 2017</a></li>
                             </ul>
                         </div>
                         <div className="tags">
@@ -147,6 +158,15 @@ const MainNews = () => {
                             <a className="py-2 px-4 mr-3 mb-3 rounded d-inline-block" href="/">New</a>
                         </div>
                     </div>
+                </div>
+
+                
+                <div className="col-12 row justify-content-center border-top pt-5">
+                    <ul>
+                        <li className="d-inline-block"><a className=" text-orange size-24 play-btn page-btn rounded-circle mx-3 text-center d-block p-0 page-active" href="/news">1</a></li>
+                        <li className="d-inline-block"><a className=" text-orange size-24 play-btn page-btn rounded-circle mx-3 text-center d-block p-0" href="/news">2</a></li>
+                        <li className="d-inline-block"><a className=" text-orange size-24 play-btn page-btn rounded-circle mx-3 text-center d-block p-0" href="/news">3</a></li>
+                    </ul>
                 </div>
             </div>
         </section>

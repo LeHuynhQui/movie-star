@@ -1,12 +1,17 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import Aos from'aos'
+
 
 const RowIcons = () => {
+    useEffect(() => {
+        Aos.init({duration:500})
+    })
     return (
         <section id="rowIcons" className="mt-5 py-5">
             <div className="container pb-5 mb-5">
                 <h3 className="section-title border-bottom py-4 text-orange position-relative mb-5 size-18">ROW ICONS</h3>
                 <div className="row">
-                    <div className="col-4 row justify-content-between">
+                    <div data-aos="zoom-in-down" data-aos-delay="1000" className="col-4 row justify-content-between">
                         <div className="col-3">
                             <i className="fas fa-lemon text-orange size-24 row-icon rounded-circle border border-dark text-center"></i>
                         </div>
@@ -16,7 +21,7 @@ const RowIcons = () => {
                         </div>
                     </div>
                     
-                    <div className="col-4 row justify-content-between">
+                    <div data-aos="zoom-in-down" data-aos-delay="1000" className="col-4 row justify-content-between">
                         <div className="col-3">
                             <i className="fas fa-lemon text-orange size-24 row-icon rounded-circle border border-dark text-center"></i>
                         </div>
@@ -26,7 +31,7 @@ const RowIcons = () => {
                         </div>
                     </div>
 
-                    <div className="col-4 row justify-content-between">
+                    <div data-aos="zoom-in-down" data-aos-delay="1000" className="col-4 row justify-content-between">
                         <div className="col-3">
                             <i className="fas fa-lemon text-orange size-24 row-icon rounded-circle border border-dark text-center"></i>
                         </div>

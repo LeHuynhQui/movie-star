@@ -18,7 +18,7 @@ const Header = () => {
 
                 <nav className="navbar">
                     <a className="navbar-brand text-white" href="/">
-                        <img src={logo} className="d-inline-block align-top" alt="minhhoa" />
+                        <img src={logo} className="d-block align-top" alt="minhhoa" />
                     </a>
                     <ul className="nav justify-content-center border-bottom main-nav">
                         <li className="nav-item hover-border-effect">
@@ -33,7 +33,7 @@ const Header = () => {
                         <li className="nav-item hover-border-effect position-relative news">
                             <a className= "nav-link pages px-5 py-4 letter-spacing-3 position-relative text-white "href="/news">NEWS</a>
                             <div className="sub-nav-news position-absolute text-white l-0 d-flex align-items-center transition-500ms overflow-hidden">
-                                <a href="/" className="m-0 position-absolute transition-1000ms;">NEWS SINGLE</a>
+                                <a href="/news" className="m-0 position-absolute transition-1000ms;">NEWS SINGLE</a>
                             </div>
                         </li>
                         <li className="nav-item hover-border-effect">

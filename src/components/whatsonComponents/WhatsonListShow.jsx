@@ -42,13 +42,13 @@ const ListShow = () => {
                         <div className="tab-pane fade show active" id="mon" role="tabpanel" aria-labelledby="mon-tab">
                             <div className="row align-items-center py-5 border-bottom" data-aos="fade-left"  data-aos-delay="300">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie5} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie5} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -66,13 +66,13 @@ const ListShow = () => {
                             </div>
                             <div className="row align-items-center py-5 border-bottom" data-aos="fade-right" data-aos-delay="500">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie6} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie6} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -90,13 +90,13 @@ const ListShow = () => {
                             </div>
                             <div className="row align-items-center py-5 border-bottom" data-aos="fade-left" data-aos-delay="700">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie7} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie7} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -114,13 +114,13 @@ const ListShow = () => {
                             </div>
                             <div className="row align-items-center py-5" data-aos="fade-right" data-aos-delay="900">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie8} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie8} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -140,13 +140,13 @@ const ListShow = () => {
                         <div className="tab-pane fade" id="tue" role="tabpanel" aria-labelledby="tue-tab">
                             <div className="row align-items-center py-5 border-bottom" data-aos="fade-left"  data-aos-delay="100">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie6} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie6} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -164,13 +164,13 @@ const ListShow = () => {
                             </div>
                             <div className="row align-items-center py-5 border-bottom" data-aos="fade-right" data-aos-delay="250">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie7} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie7} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -188,13 +188,13 @@ const ListShow = () => {
                             </div>
                             <div className="row align-items-center py-5 border-bottom" data-aos="fade-left" data-aos-delay="300">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie5} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie5} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -212,13 +212,13 @@ const ListShow = () => {
                             </div>
                             <div className="row align-items-center py-5" data-aos="fade-right" data-aos-delay="400">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie8} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie8} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -238,13 +238,13 @@ const ListShow = () => {
                         <div className="tab-pane fade" id="wed" role="tabpanel" aria-labelledby="wed-tab">
                             <div className="row align-items-center py-5 border-bottom" data-aos="fade-left"  data-aos-delay="100">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie8} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie8} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -262,13 +262,13 @@ const ListShow = () => {
                             </div>
                             <div className="row align-items-center py-5 border-bottom" data-aos="fade-right" data-aos-delay="250">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie6} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie6} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -286,13 +286,13 @@ const ListShow = () => {
                             </div>
                             <div className="row align-items-center py-5 border-bottom" data-aos="fade-left" data-aos-delay="300">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie7} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie7} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -310,13 +310,13 @@ const ListShow = () => {
                             </div>
                             <div className="row align-items-center py-5" data-aos="fade-right" data-aos-delay="400">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie5} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie5} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -336,13 +336,13 @@ const ListShow = () => {
                         <div className="tab-pane fade" id="thu" role="tabpanel" aria-labelledby="thu-tab">
                             <div className="row align-items-center py-5 border-bottom" data-aos="fade-left"  data-aos-delay="100">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie7} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie7} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -360,13 +360,13 @@ const ListShow = () => {
                             </div>
                             <div className="row align-items-center py-5 border-bottom" data-aos="fade-right" data-aos-delay="250">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie5} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie5} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -384,13 +384,13 @@ const ListShow = () => {
                             </div>
                             <div className="row align-items-center py-5 border-bottom" data-aos="fade-left" data-aos-delay="300">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie8} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie8} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -408,13 +408,13 @@ const ListShow = () => {
                             </div>
                             <div className="row align-items-center py-5" data-aos="fade-right" data-aos-delay="400">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie6} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie6} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -434,13 +434,13 @@ const ListShow = () => {
                         <div className="tab-pane fade" id="fri" role="tabpanel" aria-labelledby="fri-tab">
                             <div className="row align-items-center py-5 border-bottom" data-aos="fade-left"  data-aos-delay="100">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie6} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie6} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -458,13 +458,13 @@ const ListShow = () => {
                             </div>
                             <div className="row align-items-center py-5 border-bottom" data-aos="fade-right" data-aos-delay="250">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie7} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie7} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -482,13 +482,13 @@ const ListShow = () => {
                             </div>
                             <div className="row align-items-center py-5 border-bottom" data-aos="fade-left" data-aos-delay="300">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie8} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie8} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -506,13 +506,13 @@ const ListShow = () => {
                             </div>
                             <div className="row align-items-center py-5" data-aos="fade-right" data-aos-delay="400">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie5} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie5} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -532,13 +532,13 @@ const ListShow = () => {
                         <div className="tab-pane fade" id="sat" role="tabpanel" aria-labelledby="sat-tab">
                             <div className="row align-items-center py-5 border-bottom" data-aos="fade-left"  data-aos-delay="100">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie7} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie7} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -556,13 +556,13 @@ const ListShow = () => {
                             </div>
                             <div className="row align-items-center py-5 border-bottom" data-aos="fade-right" data-aos-delay="250">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie8} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie8} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -580,13 +580,13 @@ const ListShow = () => {
                             </div>
                             <div className="row align-items-center py-5 border-bottom" data-aos="fade-left" data-aos-delay="300">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie5} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie5} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -604,13 +604,13 @@ const ListShow = () => {
                             </div>
                             <div className="row align-items-center py-5" data-aos="fade-right" data-aos-delay="400">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie6} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie6} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -630,13 +630,13 @@ const ListShow = () => {
                         <div className="tab-pane fade" id="sun" role="tabpanel" aria-labelledby="sun-tab">
                             <div className="row align-items-center py-5 border-bottom" data-aos="fade-left"  data-aos-delay="100">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie6} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie6} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -654,13 +654,13 @@ const ListShow = () => {
                             </div>
                             <div className="row align-items-center py-5 border-bottom" data-aos="fade-right" data-aos-delay="250">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie8} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie8} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -678,13 +678,13 @@ const ListShow = () => {
                             </div>
                             <div className="row align-items-center py-5 border-bottom" data-aos="fade-left" data-aos-delay="300">
                                 <div className="col-2">
-                                    <a href="/single-movie"><img src={movie5} className="w-100 border-radius-1" alt=""/></a>
+                                    <a href="/news"><img src={movie5} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
@@ -702,13 +702,13 @@ const ListShow = () => {
                             </div>
                             <div className="row align-items-center py-5" data-aos="fade-right" data-aos-delay="400">
                                 <div className="col-2">
-                                <   a href="/single-movie"><img src={movie7} className="w-100 border-radius-1" alt=""/></a>
+                                <   a href="/news"><img src={movie7} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
                                 <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/single-movie">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-3 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
