@@ -9,7 +9,7 @@ const BoxIcons = () => {
         <section id="boxIcons" className="mt-5 py-5">
             <div className="container mb-5">
                 <h3 className="section-title border-bottom py-4 text-orange position-relative mb-5 size-18">BOX ICONS</h3>
-                <div className="row">
+                <div className="row row-responsive">
                     <div data-aos="fade-up" className="col-4 text-center">
                         <i className="fas fa-lemon text-orange size-34 mb-5"></i>
                         <h4 className="size-24 mb-4">BOX ICON TITLE</h4>

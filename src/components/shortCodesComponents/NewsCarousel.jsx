@@ -11,7 +11,7 @@ const NewsCarousel = () => {
         <section id="newsCarousel" className="mt-5 py-5">
             {/* Handle pop-up video diasplay */}
             <div className={playTrailer ? "playTrailer position-fixed activePlay transition-1000ms z-index-999" : "playTrailer position-fixed z-index-999"}>
-                <iframe width="1120" height="630" src="https://www.youtube.com/embed/d96cjJhvlMA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe width="1120" height="630" className="videoFrame" src="https://www.youtube.com/embed/d96cjJhvlMA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
 
             {/* blur backgound */}

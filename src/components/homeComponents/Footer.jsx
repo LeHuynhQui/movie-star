@@ -55,7 +55,7 @@ export default class Footer extends Component {
                             </ul>
                         </div>
                     </div>
-                    <p className="">2017 © Movie Star/ <a href="https://www.klevermedia.co.uk/" className="copy-right text-decoration-none" target="_blank" rel="noreferrer">Web design by Klever media</a></p>
+                    <p className="">2017 © Movie Star/ Web design by <a href="https://www.klevermedia.co.uk/" className="copy-right text-decoration-none" target="_blank" rel="noreferrer">Klever media</a></p>
                 </div>
             </footer>
         )

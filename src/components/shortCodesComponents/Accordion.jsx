@@ -8,7 +8,7 @@ const Accordion = () => {
         <section id="accordion" className="mt-5 py-5">
             <div className="container mb-5">
                 <h3 className="section-title border-bottom py-4 text-orange position-relative mb-5 size-18">ACCORDION</h3>
-                <div className="row justify-content-between">
+                <div className="row responsive justify-content-between">
                     <div className="col-5 p-0">
                         <div className="accordion" id="accordionExample">
                             <div className="border-bottom">

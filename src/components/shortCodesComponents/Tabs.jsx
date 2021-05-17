@@ -5,7 +5,7 @@ const Tabs = () => {
         <section id="tabs" className="mt-5 py-5">
             <div className="container mb-5">
                 <h3 className="section-title border-bottom py-4 text-orange position-relative mb-5 size-18">TABS</h3>
-                <div className="row justify-content-between">
+                <div className="row responsive justify-content-between">
                     <div className="col-5">
                         <div>
                             <ul className="nav nav-pills mb-3 border-bottom mb-5" id="pills-tab" role="tablist">
