@@ -5,25 +5,15 @@ import hero3 from '../../img/hero-3.jpg'
 import post1 from '../../img/post-1.png'
 import post5 from '../../img/post-5.png'
 
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link,
-    useParams,
-    useRouteMatch
-  } from "react-router-dom";
-  
 
 const MainNews = () => {
     const [playTrailer, setPlayTrailer] = useState(false)
-    let { path, url } = useRouteMatch();
 
     return (
         <section id="mainNews" className="my-5 py-5">
             {/* Handle pop-up video diasplay */}
             <div className={playTrailer ? "playTrailer position-fixed activePlay transition-1000ms z-index-999" : "playTrailer position-fixed z-index-999"}>
-                <iframe width="1120" height="630" src="https://www.youtube.com/embed/d96cjJhvlMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="1120" height="630" className="videoFrame" src="https://www.youtube.com/embed/d96cjJhvlMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             {/* blur backgound */}

@@ -11,11 +11,12 @@ const ComingSoon = () => {
         Aos.init({duration:500})
     })
 
+
     return (
         <section id="comingSoon" className="py-5 position-relative w-100">
             {/* Handle pop-up video diasplay */}
             <div className={playTrailer ? "playTrailer position-fixed activePlay transition-1000ms z-index-999" : "playTrailer position-fixed z-index-999"}>
-                <iframe width="1120" height="630" src="https://www.youtube.com/embed/S-UPJyEHmM0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe width="1120" height="630" className="videoFrame" src="https://www.youtube.com/embed/S-UPJyEHmM0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
 
             {/* blur backgound */}

@@ -10,10 +10,6 @@ import movie14 from '../../img/movie-14.jpg'
 
 
 const SoonSlider = () => {
-    const[recolumn, setRecolumn] = useState(false)
-    window.addEventListener('resize', e=> {
-        window.innerWidth < 1061 ? setRecolumn(true) : setRecolumn(false)
-    })
     return (
         <section id="soonSlider" className="py-5">
             <div className="container">

@@ -10,15 +10,7 @@ const ListShow = () => {
     useEffect (() => {
         Aos.init({duration: 1500})
     }, [])
-
-    const [resize992, setResize992] = useState (false)
-    window.addEventListener('resize', e => {
-        if (window.innerWidth > 768 && window.innerWidth < 992) {
-            setResize992(true)
-        } else {
-            setResize992(false)
-        }
-    })
+    
 
 
     return (
@@ -51,96 +43,96 @@ const ListShow = () => {
                     <div className="tab-content" id="pills-tabContent">
                         <div className="tab-pane fade show active" id="mon" role="tabpanel" aria-labelledby="mon-tab">
                             <div className="row align-items-center py-5 border-bottom">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie5} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 bg-secondary text-white mr-3 border-0 rounded-lg" : "py-3 px-4 bg-secondary text-white mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 bg-secondary text-white mr-3 border-0 rounded-lg" : "py-3 px-4 bg-secondary text-white mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 bg-secondary text-white mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 bg-secondary text-white mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row align-items-center py-5 border-bottom">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie6} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992? "py-2 px-3  bg-dark text-white mr-3 border-0 rounded-lg" : "py-3 px-4  bg-dark text-white mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4  bg-dark text-white mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row align-items-center py-5 border-bottom">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie7} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 bg-secondary text-white mr-3 border-0 rounded-lg" : "py-3 px-4 bg-secondary text-white mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 bg-secondary text-white mr-3 border-0 rounded-lg" : "py-3 px-4 bg-secondary text-white mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 bg-secondary text-white mr-3 border-0 rounded-lg" : "py-3 px-4 bg-secondary text-white mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 bg-secondary text-white mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 bg-secondary text-white mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 bg-secondary text-white mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row align-items-center py-5 responsive">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie8} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
@@ -149,96 +141,96 @@ const ListShow = () => {
                         </div>
                         <div className="tab-pane fade" id="tue" role="tabpanel" aria-labelledby="tue-tab">
                             <div className="row align-items-center py-5 border-bottom">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie6} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row align-items-center py-5 border-bottom">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie7} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row align-items-center py-5 border-bottom">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie5} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row align-items-center py-5 responsive">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie8} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
@@ -247,96 +239,96 @@ const ListShow = () => {
                         </div>
                         <div className="tab-pane fade" id="wed" role="tabpanel" aria-labelledby="wed-tab">
                             <div className="row align-items-center py-5 border-bottom">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie8} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row align-items-center py-5 border-bottom">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie6} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row align-items-center py-5 border-bottom">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie7} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row align-items-center py-5 responsive">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie5} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
@@ -345,96 +337,96 @@ const ListShow = () => {
                         </div>
                         <div className="tab-pane fade" id="thu" role="tabpanel" aria-labelledby="thu-tab">
                             <div className="row align-items-center py-5 border-bottom">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie7} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row align-items-center py-5 border-bottom">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie5} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row align-items-center py-5 border-bottom">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie8} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row align-items-center py-5 responsive">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie6} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
@@ -443,96 +435,96 @@ const ListShow = () => {
                         </div>
                         <div className="tab-pane fade" id="fri" role="tabpanel" aria-labelledby="fri-tab">
                             <div className="row align-items-center py-5 border-bottom">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie6} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row align-items-center py-5 border-bottom">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie7} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row align-items-center py-5 border-bottom">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie8} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row align-items-center py-5 responsive">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie5} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
@@ -541,96 +533,96 @@ const ListShow = () => {
                         </div>
                         <div className="tab-pane fade" id="sat" role="tabpanel" aria-labelledby="sat-tab">
                             <div className="row align-items-center py-5 border-bottom">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie7} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row align-items-center py-5 border-bottom">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie8} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row align-items-center py-5 border-bottom">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie5} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row align-items-center py-5 responsive">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie6} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
@@ -639,96 +631,96 @@ const ListShow = () => {
                         </div>
                         <div className="tab-pane fade" id="sun" role="tabpanel" aria-labelledby="sun-tab">
                             <div className="row align-items-center py-5 border-bottom">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie6} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row align-items-center py-5 border-bottom">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie8} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row align-items-center py-5 border-bottom">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                     <a href="/news"><img src={movie5} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row align-items-center py-5 responsive">
-                                <div className={resize992 ? "col-3" : "col-2"}>
+                                <div className="col-2">
                                 <   a href="/news"><img src={movie7} className="w-100 border-radius-1" alt=""/></a>
                                 </div>
-                                <div className={resize992 ? "col-9 text-black" : "col-10 text-black"}>
+                                <div className="col-10 text-black">
                                     <h4 className="text-orange size-16 letter-spacing-3">ACTION, ADVENTURE, SCI-FI</h4>
                                     <h2 className="size-24 mb-4">Captain America: The First Avenger</h2>
                                     <p className="size-16">Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>
-                                    <a className="text-orange size-12 mb-5 text-decoration-none" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
+                                    <a className="text-orange size-12 mb-5 text-decoration-none link-hover" href="/news">FULL SYNOPSIS <i className="fas fa-angle-right ml-3"></i></a>
                                     <div className="view-time row justify-content-between">
                                         <div className="time col-9 row align-items-center size-12">
                                             <p className="mr-4 letter-spacing-1 mb-0"><i className="far fa-clock ml-4 mr-1"></i>VIEWING TIMES</p>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>11:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>16:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>18:00</button>
-                                            <button className={resize992 ? "py-2 px-3 mr-3 border-0 rounded-lg" : "py-3 px-4 mr-3 border-0 rounded-lg"}>21:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">11:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">16:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">18:00</button>
+                                            <button className="py-3 px-4 mr-3 border-0 rounded-lg">21:00</button>
                                         </div>
                                         <div className="duration col-3 text-right">
-                                            <span className={resize992 ? "d-inline-block mr-2 size-12" : "d-inline-block mr-5 size-12"}>120 MINS</span>
+                                            <span className="d-inline-block mr-5 size-12">120 MINS</span>
                                             <span className="d-inline-block size-18 text-white font-weight-bolder rounded-circle text-center">PG</span>
                                         </div>
                                     </div>
