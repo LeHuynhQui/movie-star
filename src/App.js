@@ -21,7 +21,7 @@ import Footer from './components/homeComponents/Footer'
 
 import 'aos/dist/aos.css'
 
-import './App.scss';
+import './App.css';
 
 
 function App() {

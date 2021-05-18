@@ -20,6 +20,7 @@
   "homepage": "https://github.com/LeHuynhQui/movie-star.git",
   "scripts": {
     "start": "react-scripts start",
+    "watch" : "sass --watch src/App.scss src/App.css",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
