@@ -275,13 +275,22 @@ li.hover-border-effect {
 
 
 
-      // 1.6 transition
+      // 1.6 transition - animation
 .transition-500ms {
   transition: all .5s;
 }
 
 .transition-1000ms {
   transition: all 1s;
+}
+
+.ani {
+  animation: ani 1.5s alternate forwards;
+}
+
+
+.ani1 {
+  animation: ani1 2s alternate forwards;
 }
 
 
@@ -675,6 +684,28 @@ footer {
   }
   to {
     transform: translateX(calc(-50% + 1rem));
+  }
+}
+
+@keyframes ani {
+  from {
+    transform: translateY(-10rem);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0rem);
+    opacity: 1;
+  }
+}
+
+@keyframes ani1 {
+  from {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1) ;
+    opacity: 1;
   }
 }
 

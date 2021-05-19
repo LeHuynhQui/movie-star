@@ -248,6 +248,14 @@ li.hover-border-effect a.active:before {
   transition: all 1s;
 }
 
+.ani {
+  animation: ani 1.5s alternate forwards;
+}
+
+.ani1 {
+  animation: ani1 2s alternate forwards;
+}
+
 .outline-0 {
   outline: none;
 }
@@ -552,6 +560,26 @@ footer .copy-right:hover {
   }
   to {
     transform: translateX(calc(-50% + 1rem));
+  }
+}
+@keyframes ani {
+  from {
+    transform: translateY(-10rem);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0rem);
+    opacity: 1;
+  }
+}
+@keyframes ani1 {
+  from {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
   }
 }
 @media screen and (max-width: 768px) {
