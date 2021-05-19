@@ -6,7 +6,7 @@ import scrollArrow from '../../img/scroll-arrow.svg'
 import {motion} from 'framer-motion'
 
 
-const transition = {duration: 1, ease: [0.43, 0.13, 0.23, 0.96]}
+// const transition = {duration: 1, ease: [0.43, 0.13, 0.23, 0.96]}
 
 const Carousel = () => {
     const [playTrailer, setPlayTrailer] = useState(false)
@@ -38,37 +38,11 @@ const Carousel = () => {
                         <img src={hero1} className="d-block w-100 h-100 object-fit-cover brightness" alt="..." />
                         <div className="carousel-caption text-left d-none w-100 d-flex align-items-center r-0 l-0">
                             <div className="container">
-                                <motion.h5 
-                                    initial={{opacity:0, y:40}} 
-                                    animate={{opacity:1, y:0}} 
-                                    className="size-16 text-yellow mb-3 letter-spacing-3">
-                                        ACTION, ADVENTURE, FANTASY
-                                </motion.h5>
-                                <motion.h1 
-                                    initial={{opacity:0, scale: 4.5}} 
-                                    animate={{opacity:1, scale:1, transition: {delay: 1, ...transition}}} 
-                                    className="mb-5">
-                                        End of the World: Part II
-                                </motion.h1>
-                                <motion.p 
-                                    initial={{opacity:0, x: -50}} 
-                                    animate={{opacity:1, x:0, transition: {delay: 1, ...transition}}} 
-                                    className="mb-3 size-18">
-                                        Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. <br /> Mirum est notare quam littera gothica, quam nunc putamus parum.
-                                </motion.p>
-                                <motion.span 
-                                    initial={{opacity:0, scale: 2.5 }} 
-                                    animate={{opacity:1, scale:1, transition: {delay: 0.5, ...transition}}} 
-                                    className="d-inline-block text-center mr-2 rounded-circle border border-white">
-                                        PG
-                                </motion.span>
-                                <motion.button 
-                                    initial={{opacity:0, scale: 2.5, y: 50}} 
-                                    animate={{opacity:1, scale:1, y: 0, transition: {delay: 0.5, ...transition}}} 
-                                    className="letter-spacing-3 px-5 py-3 position-relative overflow-hidden border-0 text-white rounded-pill" onClick={()=> setPlayTrailer(true)}>
-                                        <i className="fas fa-play"></i> 
-                                        Play Trailer
-                                </motion.button>
+                                <h5 className="ani size-16 text-yellow mb-3 letter-spacing-3">ACTION, ADVENTURE, FANTASY</h5>
+                                <h1 className="ani1 mb-5">End of the World: Part II</h1>
+                                <p className="ani mb-3 size-18">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. <br /> Mirum est notare quam littera gothica, quam nunc putamus parum.</p>
+                                <span className="ani d-inline-block text-center mr-2 rounded-circle border border-white">PG</span>
+                                <button className="ani letter-spacing-3 px-5 py-3 position-relative overflow-hidden border-0 text-white rounded-pill" onClick={()=> setPlayTrailer(true)}><i className="fas fa-play"></i> Play Trailer</button>
                             </div>
                         </div>
                     </div>
@@ -76,11 +50,11 @@ const Carousel = () => {
                         <img src={hero2} className="d-block w-100 h-100 object-fit-cover brightness" alt="..." />
                         <div className="carousel-caption text-left d-none w-100 d-flex align-items-center r-0 l-0">
                             <div className="container">
-                                <h5 className="size-16 text-yellow mb-3 letter-spacing-3">ACTION, ADVENTURE, FANTASY</h5>
-                                <h1 className="mb-5">End of the World: Part II</h1>
-                                <p className="mb-3 size-18">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. <br /> Mirum est notare quam littera gothica, quam nunc putamus parum.</p>
-                                <span className="d-inline-block text-center mr-2 rounded-circle border border-white">15</span>
-                                <button className="letter-spacing-3 px-5 py-3 position-relative overflow-hidden border-0 text-white rounded-pill" onClick={()=> setPlayTrailer(true)}><i className="fas fa-play"></i> Play Trailer</button>
+                                <h5 className="ani text-yellow mb-3 letter-spacing-3">ACTION, ADVENTURE, FANTASY</h5>
+                                <h1 className="ani1 mb-5">End of the World: Part II</h1>
+                                <p className="ani mb-3 size-18">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. <br /> Mirum est notare quam littera gothica, quam nunc putamus parum.</p>
+                                <span className="ani d-inline-block text-center mr-2 rounded-circle border border-white">15</span>
+                                <button className="ani letter-spacing-3 px-5 py-3 position-relative overflow-hidden border-0 text-white rounded-pill" onClick={()=> setPlayTrailer(true)}><i className="fas fa-play"></i> Play Trailer</button>
                             </div>
                         </div>
                     </div>
@@ -88,11 +62,11 @@ const Carousel = () => {
                         <img src={hero3} className="d-block w-100 h-100 object-fit-cover brightness" alt="..." />
                         <div className="carousel-caption text-left d-none w-100 d-flex align-items-center r-0 l-0">
                             <div className="container">
-                                <h5 className="size-16 text-yellow mb-3 letter-spacing-3">ACTION, ADVENTURE, FANTASY</h5>
-                                <h1 className="mb-5">End of the World: Part II</h1>
-                                <p className="mb-3 size-18">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. <br /> Mirum est notare quam littera gothica, quam nunc putamus parum.</p>
-                                <span className="d-inline-block text-center mr-2 rounded-circle border border-white">PG</span>
-                                <button className="letter-spacing-3 px-5 py-3 position-relative overflow-hidden border-0 text-white rounded-pill" onClick={()=> setPlayTrailer(true)}><i className="fas fa-play"></i> Play Trailer</button>
+                                <h5 className="ani size-16 text-yellow mb-3 letter-spacing-3">ACTION, ADVENTURE, FANTASY</h5>
+                                <h1 className="ani1 mb-5">End of the World: Part II</h1>
+                                <p className="ani mb-3 size-18">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. <br /> Mirum est notare quam littera gothica, quam nunc putamus parum.</p>
+                                <span className="ani d-inline-block text-center mr-2 rounded-circle border border-white">PG</span>
+                                <button className="ani letter-spacing-3 px-5 py-3 position-relative overflow-hidden border-0 text-white rounded-pill" onClick={()=> setPlayTrailer(true)}><i className="fas fa-play"></i> Play Trailer</button>
                             </div>
                         </div>
                     </div>
