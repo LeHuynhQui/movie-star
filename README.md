@@ -9,5 +9,5 @@ Thank you!
 
 ** Note
 
-1. App được chạy tại http://localhost:3000 (chứ không phải http://localhost:3000/lehuynhqui/movie-star.git)
+1. App được chạy tại http://localhost:3000 (chứ không phải http://localhost:3000/lehuynhqui/movie-star.git do khi tải file về và "npm run" nó sẽ mặc định chạy tại url này, anh em nhớ xoá đoạn cuối giúp em nghe)
 2. Đây là web full page 
