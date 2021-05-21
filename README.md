@@ -6,6 +6,7 @@ Do GitHub không cho push file node_modules nên anh em Mentor vui lòng tải f
 
 Thank you!
 
+Bài làm đã được deploy tại: https://movie-star-web.vercel.app/
 
 ** Note
 
@@ -14,5 +15,4 @@ Thank you!
 
 
 #Link dự phòng khi React bị fail:
-
 Đây là bài làm bằng HTML vad CSS bình thường: https://github.com/LeHuynhQui/movie-star-backup.git
